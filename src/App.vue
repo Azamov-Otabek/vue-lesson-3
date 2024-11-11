@@ -1,11 +1,5 @@
 <script setup lang="ts">
-interface Datas {
-  title: string;
-  done: boolean;
-  timestamp: number;
-  id: number;
-  status: string;
-}
+
 
 import { reactive, ref, watch } from "vue";
 const title = ref("");
