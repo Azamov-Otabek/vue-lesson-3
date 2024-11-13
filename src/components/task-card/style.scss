@@ -1,0 +1,52 @@
+.card {
+    position: relative;
+    border-radius: 12px;
+    background: lightgray;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: grab;
+
+    strong {
+      position: absolute;
+      top: 12px;
+      right: 10px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    .btns {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: start;
+      margin-top: 10px;
+
+      button {
+        padding: 5px 10px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:first-child {
+        background: red;
+        color: white;
+        transition: all 0.2s linear;
+
+        &:hover {
+          background: darkred;
+        }
+      }
+
+      button:last-child {
+        background: green;
+        color: white;
+        transition: all 0.2s linear;
+        &:hover {
+          background: darkgreen;
+        }
+      }
+    }
+  }

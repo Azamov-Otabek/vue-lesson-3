@@ -1,0 +1,16 @@
+.tasks-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .desktop {
+    width: 300px;
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    h1 {
+      text-align: center;
+    }
+  }
